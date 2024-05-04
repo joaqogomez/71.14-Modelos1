@@ -1,0 +1,14 @@
+- Impresión del problema: El problema resulto dificil por intentar resolverlo con programacion lineal. Luego de ver que iba a ser imposible, intente buscar la solucion optima pero al muy compleja decidi utilizar una aproximacion.
+ 
+- Ideas para la resolucion: Para resolverlo, ordene de mayor a menor segun los tiempos de lavado. Luego, el algoritmo es el siguiente:
+    1) Si no hay lavados, creo uno y pongo la prenda
+    2) Recorro los lavados con la siguiente prenda de la lista:
+        a) Si no hay incompatibilidades y el tiempo de lavado es menor, lo asigno al lavado correspondiente
+        b) Si no cumple ninguna de las condiciones, creo un lavado nuevo con esa prenda
+
+- Comentarios sobre los cambios que hagan en el código: Los cambios que se realizaron fueron del intento de programacion lineal al algoritmo aproximado, pasando por el intento de realizar el algoritmo optimo.
+Se termino decidiendo un algoritmo aproximado debido a lo que puede llegar a demorar un algoritmo optimo. La complejidad de los algoritmos es:
+    - Para el algoritmo optimo: O(n!) siendo n la cantidad de elementos a lavar
+    - Para el algoritmo aproximado: O(n*m*i) siendo n la cantidad de elementos a lavar,i la cantidad de incompatibilidades y m la cantidad de lavados
+
+- Comentarios finales de la entrega: Si bien se podria haber buscado el algoritmo optimo, la aproximacion dio un resultado que se desvia en un 1% del optimo (pensando que 61 es el resultado optimo)

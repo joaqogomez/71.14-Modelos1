@@ -1,0 +1,9 @@
+- Impresión del problema: El problema en si, no tiene cambios. Solamente hay cambios sobre el set de datos
+ 
+- Ideas para la resolucion: Decidi utilizar la aproximacion tal cual estaba debido a que en la entrega 1 los resultados habian sido muy buenos.
+
+- Comentarios sobre los cambios que hagan en el código: Se probo cambiar el menor por un menor igual, dando peores resultados.
+
+- Comentarios finales de la entrega: Si bien sabemos que el resultado no es optimo, me parece que la aproximacion da un resultado muy bueno (si comparo con las otras resoluciones ya subidas). 
+Otra cosa que considero importante, charlando con compañeros que en la entrega 1 entregaron un algoritmo optimo y probaron en la segunda con ese algoritmo, para obtener el optimo se tarda mas de 2 horas en correr el algoritmo mientras que la aproximacion lo hace solo en 12 segundos.
+Esto tiene sentido debido a la complejidad de cada algoritmo.
